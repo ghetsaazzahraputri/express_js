@@ -1,0 +1,39 @@
+body {
+ background-image: url('../images/image.jpg');
+ background-size: cover;
+ background-position: 50% 50%;
+}
+.kotak{
+  background-color: white;
+  flex-wrap: initial;
+  width: 350px;
+  height:300px;
+  margin: 150px auto;
+  text-align: center;
+  padding: 20px 10px;
+}
+hr{
+  width: 200px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+.user{
+  padding: 7px;
+  margin: 15px;
+  width: 250px;
+}
+.tombol{
+  padding: 7px;
+  margin: 15px;
+  background-color: royalblue;
+  width: 275px;
+  color: white;
+}
+footer.fix-button{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  padding: 20px;
+}
